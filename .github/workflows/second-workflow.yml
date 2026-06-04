@@ -1,0 +1,17 @@
+name: Second-Workflow
+
+on:
+  pull:
+
+  workflow_dispatch:
+
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Workflow Triggered"    
+      
